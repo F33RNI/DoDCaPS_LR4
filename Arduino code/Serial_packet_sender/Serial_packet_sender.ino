@@ -30,7 +30,7 @@
 /*            Serial port setup            */
 /*******************************************/
 // Serial port speed
-const uint16_t PORT_BAUD_RATE PROGMEM = 57600;
+const uint32_t PORT_BAUD_RATE PROGMEM = 57600;
 
 
 /************************************/
