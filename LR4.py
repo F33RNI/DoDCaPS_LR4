@@ -230,9 +230,6 @@ class Window(QMainWindow):
                                 check_sum ^= int(data_buffer[i] & 0xFF)
 
                             if check_sum == data_buffer[8]:
-
-                                print(data_buffer)
-
                                 # Parse packet
                                 channel_1 = (int(data_buffer[0] & 0xFF) << 8) | int(data_buffer[1] & 0xFF)
                                 channel_2 = (int(data_buffer[2] & 0xFF) << 8) | int(data_buffer[3] & 0xFF)
